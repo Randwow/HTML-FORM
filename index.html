@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Макеев Никита">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Creating HTMl FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Формы и их элементы </h1>
+        <div class="container">
+            <form>
+                <br>
+                <label class="text" for="Your-Name">Your Name (required)</label>
+                <input type="text" name="Your-Name" id="Your-Name">
+
+                <label class="text" for="Your-Email">Your Email (required)</label>
+                <input type="text" name="Your-Email" id="Your-Email">
+
+                <fieldset>
+                    <legend class="text">What's this all about?</legend>
+
+                    <label class="text" for="Hello">Say Hello</label>
+                    <input type="checkbox" name="About" value="Hello">
+
+                    <label class="text" for="Complain">Complain</label>
+                    <input type="checkbox" name="About" value="Complain">
+
+                    <label class="text" for="Share-a-joke">Share a joke</label>
+                    <input type="checkbox" name="About" value="Share-a-joke">
+                </fieldset>
+                <label class="text" for="Country">Country</label>
+                <select name="Region" id="Country">
+                    <option class="text" value="Default">Select Country</option>
+                    <option class="text" value="MD">Moldova</option>
+                    <option class="text" value="USA">United States of America </option>
+                </select>
+                <br>
+                <label class="text" for="comments">Your message</label>
+                <textarea class="b1" name="comments" id="comments">Please add your message</textarea>
+
+                <input class="SEND" type="submit" value="SEND">
+
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
